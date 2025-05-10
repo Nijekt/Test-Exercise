@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧪 Test Assignment: Layout and Interface Development
 
-## Getting Started
+This is a UI implementation for a dashboard and an account page based on provided screenshots. The project uses **React (Next.js)** and mock data to simulate real content and interactions. The solution is responsive, component-based, and hosted online.
 
-First, run the development server:
+## 🔧 Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **React** (Next.js)
+- **TypeScript** 
+- **Tailwind CSS**
+- **Recharts** 
+- **GitHub Copilot** (into IDE)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚙️ Features Implemented
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### ✅ Dashboard Screen
+- **Navigation Bar** with active state on "Dashboard"
+- **Work Queue** block with:
+  - Tabs
+  - Table layout
+- **Portfolio Goals** with:
+  - Progress indicators
+- **Quick Actions**:
+  - Interactive buttons
+- **Market Intelligence**:
+  - News items (mocked)
+- **My Accounts**:
+  - Table
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### ✅ Account Page
+- **Header** with account name and general info
+- UI Blocks:
+  - **Performance Metrics**
+  - **Policies**
+  - **Account Status & Compliance**
+  - **Winnability**
+    - Charts/graphs
+    - Recommendations
+  - **Communication**
+    - Messages, replies, attachments
+  - **Policies Table**
 
-## Learn More
+## 🧩 Component Architecture
 
-To learn more about Next.js, take a look at the following resources:
+- Reusable UI components
+- Layouts split into logical sections
+- Icons and interactivity (onClick, tab switching, hover effects)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📱 Responsiveness
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Two breakpoints implemented:
+  - **Desktop**
+  - **Laptop**
+  - **Tablet**
+  - **Mobile**
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌐 Live Demo
+
+[🔗 View Deployed App](https://nikitasnizhkotestexercise.netlify.app)
+
+
+## 📝 Notes
+
+- Mock data used instead of API calls
+- Hosted via Netlify
+- Designed to match layout, structure, and interactivity as seen in provided screenshots
+
+---
+
