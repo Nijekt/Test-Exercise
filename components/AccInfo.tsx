@@ -8,7 +8,7 @@ type Props = {
   account: AccountType;
 };
 
-const AccInfo: FC<Props> = ({ account, className }) => {
+const AccInfo: FC<Props> = ({ account }) => {
   return (
     <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center flex-1">
       <Image

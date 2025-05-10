@@ -89,6 +89,8 @@ const customColumns = [
 ];
 
 const Table: React.FC<TableProps> = ({ data, enableRouting, onRowClick }) => {
+  const router = useRouter();
+
   if (!data || data.length === 0) return <div>No data</div>;
 
   const allKeys = Object.keys(data[0]);
@@ -98,8 +100,6 @@ const Table: React.FC<TableProps> = ({ data, enableRouting, onRowClick }) => {
   );
   const usedKeys = activeCustomCols.map((col) => col.key);
   const regularKeys = allKeys.filter((key) => !usedKeys.includes(key));
-
-  const router = useRouter();
 
   const handleRowClick = (item: any, index: number) => {
     if (enableRouting) {
@@ -137,7 +137,7 @@ const Table: React.FC<TableProps> = ({ data, enableRouting, onRowClick }) => {
             <tr
               key={rowIdx}
               className="border-b-[#293245] border-b-1 even:bg-[#232838] h-[60px] cursor-pointer hover:bg-[#2f364a]"
-              onClick={() => handleRowClick(item, rowIdx)} // Обработка клика
+              onClick={() => handleRowClick(item, rowIdx)}
             >
               {activeCustomCols.map((col, idx) => (
                 <td key={`custom-${idx}`} className="px-4 py-2 text-sm">

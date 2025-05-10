@@ -7,7 +7,7 @@ type Props = {
   policiesData: PolicyType[];
 };
 
-const Policies: FC<Props> = ({ policiesData, className }) => {
+const Policies: FC<Props> = ({ policiesData }) => {
   return (
     <div className="flex gap-[17px] w-full h-[174px] bg-secondary mt-4 px-[34px] py-[12px] overflow-x-auto scrollbar-thin rounded-[20px]">
       {policiesData.map((policy, index) => (

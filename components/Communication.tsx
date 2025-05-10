@@ -28,11 +28,11 @@ const Communication = () => {
             </div>
             <span>Michael Roberts // Apr 5</span>
             <p>
-              Hello Arthur, I'm reaching out regarding the upcoming auto policy
-              renewal for Real Estate Group, LLC. The current policy expires on
-              6/30/2024. Would you like to review coverage options before
-              proceeding with the renewal? I've attached the current policy
-              details and premium breakdown for your reference.
+              Hello Arthur, I&apos;m reaching out regarding the upcoming auto
+              policy renewal for Real Estate Group, LLC. The current policy
+              expires on 6/30/2024. Would you like to review coverage options
+              before proceeding with the renewal? I&apos;ve attached the current
+              policy details and premium breakdown for your reference.
             </p>
             <Button
               variant="empty"
@@ -58,8 +58,8 @@ const Communication = () => {
             <span>Sarh Chen // Apr 5</span>
             <p>
               Hi Arthur, Real Estate Group has expressed interest in adding
-              workers compensation coverage to their insurance portfolio. I've
-              completed the initial risk assessment based
+              workers compensation coverage to their insurance portfolio.
+              I&apos;ve completed the initial risk assessment based
             </p>
 
             <Button

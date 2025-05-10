@@ -11,7 +11,7 @@ type Props = {
   className?: string;
 };
 
-const MyComponent: FC<Props> = ({ account, className }) => {
+const MyComponent: FC<Props> = ({ account }) => {
   return (
     <div className="w-full bg-secondary mt-4 flex flex-col 2xl:flex-row py-[30px] gap-4 rounded-[20px]">
       {/* Left Sidebar */}
