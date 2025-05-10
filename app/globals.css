@@ -11,7 +11,7 @@
 }
 :root {
   --background: #121622;
-  --foreground: #e5e7eb;
+  --foreground: #cbcdd0;
 
   --primary: #3b82f6;
   --primary-foreground: oklch(0.99 0 0);

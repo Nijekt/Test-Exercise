@@ -2,18 +2,18 @@ import classNames from "classnames";
 import React from "react";
 
 type PhotoProgressBarProps = {
-  progress?: number; // Процент заполнения прогресс-бара (от 0 до 100)
-  achievedAmount?: string; // Достиженная сумма (например, "$8.1M")
-  goalAmount?: string; // Целевая сумма (например, "$12M")
-  fillColor?: string; // Цвет заполнения прогресс-бара
-  backgroundColor?: string; // Цвет фона прогресс-бара
-  height?: string; // Высота прогресс-бара
-  textColor?: string; // Цвет текста внутри прогресс-бара
-  containerClass?: string; // Дополнительный класс для контейнера прогресс-бара
-  header?: string; // Текст, отображаемый над прогресс-баром
-  headerStyle?: string; // Стиль для текста заголовка
-  showProgress?: boolean; // Показывать ли процент заполнения под прогресс-баром
-  lineWidth?: string; // Ширина линии прогресс-бара
+  progress?: number; 
+  achievedAmount?: string; 
+  goalAmount?: string; 
+  fillColor?: string;
+  backgroundColor?: string; 
+  height?: string; 
+  textColor?: string;  
+  containerClass?: string; 
+  header?: string; 
+  headerStyle?: string;  
+  showProgress?: boolean; 
+  lineWidth?: string; 
 };
 
 const PhotoProgressBar: React.FC<PhotoProgressBarProps> = ({
