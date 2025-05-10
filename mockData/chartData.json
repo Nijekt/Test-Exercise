@@ -1,0 +1,11 @@
+[
+  { "name": "Jan", "value": 300 },
+  { "name": "Jan", "value": 550 },
+  { "name": "Feb", "value": 420 },
+  { "name": "Feb", "value": 760 },
+  { "name": "Mar", "value": 540 },
+  { "name": "Mar", "value": 320 },
+  { "name": "Apr", "value": 500 },
+  { "name": "Apr", "value": 420 },
+  { "name": "Now", "value": 850 }
+]
