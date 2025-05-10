@@ -14,16 +14,16 @@ import ComplianceDoc from "@/components/ComplianceDoc";
 import AccInfo from "@/components/AccInfo";
 import LinkArrow from "@/components/LinkArrow";
 
-interface AccountsProps {
-  params: {
-    index: number;
-  };
-}
+type Params = Promise<{ index: string }>;
 
-console.log(policiesData);
+const Accounts = async ({ params }: { params: Params }) => {
+  const { index } = await params;
+  const indexNum = parseInt(index, 10);
+  const account = data[indexNum];
 
-const Accounts: React.FC<AccountsProps> = ({ params }) => {
-  const account = data[params.index];
+  if (!account) {
+    return <div>Account not found</div>;
+  }
   return (
     <main className="flex flex-col gap-6 w-full">
       {/* BreadCrumbs */}
